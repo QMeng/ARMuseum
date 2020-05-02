@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		98659E88C9E6F32121F358E5 /* Pods_ARMuseum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 805A7AA3CDF016F1881061BB /* Pods_ARMuseum.framework */; };
 		E4B57A5C245DE40E001C654E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B57A5B245DE40E001C654E /* AppDelegate.swift */; };
 		E4B57A5E245DE40E001C654E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B57A5D245DE40E001C654E /* art.scnassets */; };
-		E4B57A60245DE40E001C654E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B57A5F245DE40E001C654E /* ViewController.swift */; };
 		E4B57A63245DE40E001C654E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B57A61245DE40E001C654E /* Main.storyboard */; };
 		E4B57A65245DE40F001C654E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B57A64245DE40F001C654E /* Assets.xcassets */; };
 		E4B57A68245DE40F001C654E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4B57A66245DE40F001C654E /* LaunchScreen.storyboard */; };
+		E4B57A72245DE6A4001C654E /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E4B57A71245DE6A4001C654E /* Podfile */; };
+		E4B57A74245DEA58001C654E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B57A73245DEA58001C654E /* LoginViewController.swift */; };
+		E4B57A76245DECC5001C654E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4B57A75245DECC5001C654E /* GoogleService-Info.plist */; };
+		E4B57A78245DF707001C654E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B57A77245DF707001C654E /* SignUpViewController.swift */; };
+		E4B57A7A245DF832001C654E /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B57A79245DF832001C654E /* Util.swift */; };
+		E4B57A84245E048E001C654E /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B57A83245E048E001C654E /* ARViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B5B629BBD4091CF52CCE4B9 /* Pods-ARMuseum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMuseum.release.xcconfig"; path = "Target Support Files/Pods-ARMuseum/Pods-ARMuseum.release.xcconfig"; sourceTree = "<group>"; };
+		5C77C4B8835953E5B5B3B2AB /* Pods-ARMuseum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMuseum.debug.xcconfig"; path = "Target Support Files/Pods-ARMuseum/Pods-ARMuseum.debug.xcconfig"; sourceTree = "<group>"; };
+		805A7AA3CDF016F1881061BB /* Pods_ARMuseum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMuseum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B57A58245DE40E001C654E /* ARMuseum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMuseum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B57A5B245DE40E001C654E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4B57A5D245DE40E001C654E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		E4B57A5F245DE40E001C654E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4B57A62245DE40E001C654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4B57A64245DE40F001C654E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4B57A67245DE40F001C654E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E4B57A69245DE40F001C654E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4B57A71245DE6A4001C654E /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4B57A73245DEA58001C654E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E4B57A75245DECC5001C654E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E4B57A77245DF707001C654E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E4B57A79245DF832001C654E /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		E4B57A83245E048E001C654E /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +44,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98659E88C9E6F32121F358E5 /* Pods_ARMuseum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0778499ADE54F8FEE85111B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C77C4B8835953E5B5B3B2AB /* Pods-ARMuseum.debug.xcconfig */,
+				1B5B629BBD4091CF52CCE4B9 /* Pods-ARMuseum.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8C80EC958390A1B0488F3B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				805A7AA3CDF016F1881061BB /* Pods_ARMuseum.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4B57A4F245DE40E001C654E = {
 			isa = PBXGroup;
 			children = (
 				E4B57A5A245DE40E001C654E /* ARMuseum */,
 				E4B57A59245DE40E001C654E /* Products */,
+				0778499ADE54F8FEE85111B8 /* Pods */,
+				D8C80EC958390A1B0488F3B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +89,17 @@
 		E4B57A5A245DE40E001C654E /* ARMuseum */ = {
 			isa = PBXGroup;
 			children = (
-				E4B57A5B245DE40E001C654E /* AppDelegate.swift */,
-				E4B57A5D245DE40E001C654E /* art.scnassets */,
-				E4B57A5F245DE40E001C654E /* ViewController.swift */,
-				E4B57A61245DE40E001C654E /* Main.storyboard */,
 				E4B57A64245DE40F001C654E /* Assets.xcassets */,
+				E4B57A5D245DE40E001C654E /* art.scnassets */,
+				E4B57A75245DECC5001C654E /* GoogleService-Info.plist */,
+				E4B57A71245DE6A4001C654E /* Podfile */,
 				E4B57A66245DE40F001C654E /* LaunchScreen.storyboard */,
-				E4B57A69245DE40F001C654E /* Info.plist */,
+				E4B57A61245DE40E001C654E /* Main.storyboard */,
+				E4B57A5B245DE40E001C654E /* AppDelegate.swift */,
+				E4B57A77245DF707001C654E /* SignUpViewController.swift */,
+				E4B57A73245DEA58001C654E /* LoginViewController.swift */,
+				E4B57A79245DF832001C654E /* Util.swift */,
+				E4B57A83245E048E001C654E /* ARViewController.swift */,
 			);
 			path = ARMuseum;
 			sourceTree = "<group>";
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4B57A6C245DE40F001C654E /* Build configuration list for PBXNativeTarget "ARMuseum" */;
 			buildPhases = (
+				90C30A684E4F6D92DCE8FC45 /* [CP] Check Pods Manifest.lock */,
 				E4B57A54245DE40E001C654E /* Sources */,
 				E4B57A55245DE40E001C654E /* Frameworks */,
 				E4B57A56245DE40E001C654E /* Resources */,
+				AE1905B4BD05440B70E9CEF2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +164,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B57A72245DE6A4001C654E /* Podfile in Resources */,
 				E4B57A5E245DE40E001C654E /* art.scnassets in Resources */,
 				E4B57A68245DE40F001C654E /* LaunchScreen.storyboard in Resources */,
 				E4B57A65245DE40F001C654E /* Assets.xcassets in Resources */,
 				E4B57A63245DE40E001C654E /* Main.storyboard in Resources */,
+				E4B57A76245DECC5001C654E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90C30A684E4F6D92DCE8FC45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMuseum-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE1905B4BD05440B70E9CEF2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMuseum/Pods-ARMuseum-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ARMuseum/Pods-ARMuseum-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ARMuseum/Pods-ARMuseum-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E4B57A54245DE40E001C654E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B57A60245DE40E001C654E /* ViewController.swift in Sources */,
+				E4B57A74245DEA58001C654E /* LoginViewController.swift in Sources */,
+				E4B57A7A245DF832001C654E /* Util.swift in Sources */,
+				E4B57A78245DF707001C654E /* SignUpViewController.swift in Sources */,
 				E4B57A5C245DE40E001C654E /* AppDelegate.swift in Sources */,
+				E4B57A84245E048E001C654E /* ARViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +368,7 @@
 		};
 		E4B57A6D245DE40F001C654E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C77C4B8835953E5B5B3B2AB /* Pods-ARMuseum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qingsongmeng.ARMuseum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artrial.ARMuseum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +387,7 @@
 		};
 		E4B57A6E245DE40F001C654E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B5B629BBD4091CF52CCE4B9 /* Pods-ARMuseum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +397,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.qingsongmeng.ARMuseum;
+				PRODUCT_BUNDLE_IDENTIFIER = com.artrial.ARMuseum;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
